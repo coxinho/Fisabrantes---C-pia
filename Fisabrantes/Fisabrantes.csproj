@@ -200,16 +200,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiViewModels\CreateUtentesViewModel.cs" />
-    <Compile Include="Api\UtentesController.cs" />
-    <Compile Include="Areas\API\APIAreaRegistration.cs" />
-    <Compile Include="Areas\API\Controllers\UtentesController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ConsultasController.cs" />
     <Compile Include="Controllers\FuncionariosController.cs" />
@@ -217,7 +212,6 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PrescricoesController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
-    <Compile Include="Controllers\UtentesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -250,7 +244,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Areas\API\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -320,9 +313,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\API\Models\" />
-    <Folder Include="Areas\API\Views\Shared\" />
-    <Folder Include="Views\Utentes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
